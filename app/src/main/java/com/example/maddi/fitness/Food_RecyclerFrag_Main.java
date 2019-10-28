@@ -1,9 +1,8 @@
 package com.example.maddi.fitness;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -19,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 public class Food_RecyclerFrag_Main extends AppCompatActivity {
     //private boolean mSidePanel;
     private Toolbar mToolbar;
-    private android.support.v7.app.ActionBar mActionBar;
+    private androidx.appcompat.app.ActionBar mActionBar;
 
     private DatabaseReference mDatabase;
     private FirebaseAuth mAuth;

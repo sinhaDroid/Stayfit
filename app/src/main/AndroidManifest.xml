@@ -15,6 +15,12 @@
     <uses-permission android:name="android.permission.SEND_SMS"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
+    <uses-feature
+        android:name="android.hardware.sensor.stepdetector" android:required="false"/>
+
+    <uses-feature
+        android:name="android.hardware.sensor.stepcounter" android:required="false"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon_yoga"
@@ -22,7 +28,8 @@
         android:supportsRtl="true"
         android:largeHeap="true"
         android:theme="@style/AppTheme"
-        android:name="android.support.multidex.MultiDexApplication">
+        android:name="androidx.multidex.MultiDexApplication"
+        tools:ignore="GoogleAppIndexingWarning">
         <!-- Youtube -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -35,8 +42,9 @@
         </activity>
         <activity android:name="com.example.maddi.fitness.MainActivity">
         </activity>
-        <activity android:name="com.example.maddi.fitness.ChartActivity"
-            android:label="Rahul Data"></activity>
+        <activity
+            android:name="com.example.maddi.fitness.ChartActivity"
+            android:label="Rahul Data" />
         <!--<meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>-->
         <!--<activity android:name="com.facebook.FacebookActivity"-->
             <!--android:configChanges=-->
@@ -107,10 +115,5 @@
             android:exported="false"/>
 
     </application>
-    <uses-feature
-        android:name="android.hardware.sensor.stepdetector" android:required="false"/>
-
-    <uses-feature
-        android:name="android.hardware.sensor.stepcounter" android:required="false"/>
 
 </manifest>

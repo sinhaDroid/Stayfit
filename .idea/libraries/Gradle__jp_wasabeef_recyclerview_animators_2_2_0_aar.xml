@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: jp.wasabeef:recyclerview-animators:2.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-animators-2.2.0.aar/bfcad6ed67644866678df4d68afaa8fa/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerview-animators-2.2.0.aar/bfcad6ed67644866678df4d68afaa8fa/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7f97f855f74ff1a57c24b1d6cd6ec26/jetified-recyclerview-animators-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7f97f855f74ff1a57c24b1d6cd6ec26/jetified-recyclerview-animators-2.2.0/res" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/recyclerview-animators/2.2.0/7ca321ba907cdecb2a27690b266d1d3f7085f973/recyclerview-animators-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/recyclerview-animators/2.2.0/d29e9d80a2e7ff6f2f73fbede40c482d4f742322/recyclerview-animators-2.2.0-sources.jar!/" />
     </SOURCES>
