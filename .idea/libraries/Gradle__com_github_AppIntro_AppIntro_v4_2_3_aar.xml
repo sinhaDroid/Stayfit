@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.AppIntro:AppIntro:v4.2.3@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1238e384bddacfc0e07aa3ddfe293e4f/jetified-AppIntro-v4.2.3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1238e384bddacfc0e07aa3ddfe293e4f/jetified-AppIntro-v4.2.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/243862de099c1cf84cf348f4d25cf597/jetified-AppIntro-v4.2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/243862de099c1cf84cf348f4d25cf597/jetified-AppIntro-v4.2.3/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

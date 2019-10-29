@@ -1,10 +1,12 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.example.maddi.fitness"
+        applicationId "com.stayfit.app"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1
@@ -36,6 +38,7 @@ android {
 
 repositories {
     maven { url "https://jitpack.io" }
+    mavenCentral()
 }
 
 dependencies {
@@ -58,8 +61,9 @@ dependencies {
     implementation 'com.facebook.android:facebook-android-sdk:5.1.1'
 
     // Google
-    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
 
     // App intro screen
     implementation 'com.github.AppIntro:AppIntro:v4.2.3'
@@ -81,6 +85,8 @@ dependencies {
 
     // Youtube content page transform
     implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    implementation "androidx.core:core-ktx:1.1.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 
 apply plugin: 'com.google.gms.google-services'

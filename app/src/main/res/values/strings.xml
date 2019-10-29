@@ -8,7 +8,7 @@
     <string name="signUp_link_text">No account yet? Create one</string>
 
     // Google
-    <string name="google_client_id">464646136565-ucqins75bcpfs2csntfvi1pnrkqspuku.apps.googleusercontent.com</string>
+    <string name="google_client_id">130049622709-dvb0m9f4fusqketl9m55vee3bns7s7ge.apps.googleusercontent.com</string>
 
     <string name="fit_cycling">Cycling</string>
     <string name="fit_running">Running</string>
@@ -18,9 +18,9 @@
     <string name="step_detector">
          android.hardware.sensor.stepdetector
     </string>
-    <string name="facebook_application_id" translatable="false">207303182991184</string>
-    <string name="facebook_login_protocol_scheme" translatable="false">fb207303182991184</string>
-    <string name="facebook_app_id">207303182991184</string><string name="action_settings">Settings</string>
+    <string name="facebook_application_id" translatable="false">791127257966626</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb791127257966626</string>
+    <string name="facebook_app_id">791127257966626</string><string name="action_settings">Settings</string>
     <string name="txt1">Linked Account</string>
     <string name="txt2">Refer A Friend</string>
     <string name="txt3">Rate Us</string>
@@ -84,7 +84,7 @@
 
 
 // Maps Key
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCGLn_w9x11JVAXa0kGB9lpGDYJShXDjBg</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAW733tHqddCD6GZJLtCMhGDPhgLu80XOg</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
